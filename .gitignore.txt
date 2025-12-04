@@ -1,5 +1,4 @@
-# Xcode
-#
+## Xcode Core
 build/
 *.pbxuser
 !default.pbxuser
@@ -9,18 +8,27 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata
+xcuserdata/
 *.xccheckout
 *.moved-aside
-DerivedData
+DerivedData/
 *.hmap
 *.ipa
 *.xcuserstate
 
-# Swift Package Manager
-#
+## Swift Package Manager
 .build/
+.swiftpm/
 
-# macOS
-#
+## macOS System Files
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+## Simulator & Logs
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+*.log
